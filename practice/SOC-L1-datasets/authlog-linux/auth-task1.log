@@ -1,0 +1,14 @@
+Mar 31 04:08:15 srv-db-2 sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 31 04:09:02 srv-db-2 sshd[2401]: Accepted password for deploy from 192.168.5.12 port 49880 ssh2
+Mar 31 04:09:02 srv-db-2 sshd[2401]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Mar 31 04:11:09 srv-db-2 sshd[3110]: Failed password for oracle from 185.234.218.92 port 51000 ssh2
+Mar 31 04:11:12 srv-db-2 sshd[3111]: Failed password for oracle from 185.234.218.92 port 51001 ssh2
+Mar 31 04:11:15 srv-db-2 sshd[3112]: Failed password for oracle from 185.234.218.92 port 51002 ssh2
+Mar 31 04:11:18 srv-db-2 sshd[3113]: Failed password for oracle from 185.234.218.92 port 51003 ssh2
+Mar 31 04:11:21 srv-db-2 sshd[3114]: Failed password for oracle from 185.234.218.92 port 51004 ssh2
+Mar 31 04:11:24 srv-db-2 sshd[3115]: Failed password for oracle from 185.234.218.92 port 51005 ssh2
+Mar 31 04:11:27 srv-db-2 sshd[3116]: Failed password for oracle from 185.234.218.92 port 51006 ssh2
+Mar 31 04:11:30 srv-db-2 sshd[3117]: Failed password for oracle from 185.234.218.92 port 51007 ssh2
+Mar 31 04:11:33 srv-db-2 sshd[3118]: Failed password for oracle from 185.234.218.92 port 51008 ssh2
+Mar 31 04:12:40 srv-db-2 sshd[3119]: Accepted password for oracle from 185.234.218.92 port 51890 ssh2
+Mar 31 04:12:40 srv-db-2 sshd[3119]: pam_unix(sshd:session): session opened for user oracle by (uid=0)

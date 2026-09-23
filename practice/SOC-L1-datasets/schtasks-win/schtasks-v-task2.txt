@@ -1,0 +1,173 @@
+HostName:                             SRV-URM
+TaskName:                             \Microsoft\Windows\UpdateOrchestrator\Schedule Scan
+Next Run Time:                        4/20/2026 3:00:00 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        4/19/2026 3:00:00 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          C:\Windows\System32\usoclient.exe StartScan
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily
+Start Time:                           3:00:00 AM
+Start Date:                           1/1/2020
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             SRV-URM
+TaskName:                             \Microsoft\Windows\Defrag\ScheduledDefrag
+Next Run Time:                        4/20/2026 3:00:00 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        4/19/2026 3:00:00 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          C:\Windows\System32\defrag.exe -c -h -k -g -$
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Weekly
+Start Time:                           1:00:00 AM
+Start Date:                           1/1/2020
+End Date:                             N/A
+Days:                                 SUNDAY
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             SRV-URM
+TaskName:                             \Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan
+Next Run Time:                        4/20/2026 3:00:00 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        4/19/2026 3:00:00 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2404.6-0\MpCmdRun.exe Scan -ScheduleJob
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily
+Start Time:                           2:00:00 AM
+Start Date:                           1/1/2020
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             SRV-URM
+TaskName:                             \Microsoft\Office\Office Automatic Updates 2.0
+Next Run Time:                        4/20/2026 3:00:00 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        4/19/2026 3:00:00 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeC2RClient.exe /update user
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily
+Start Time:                           12:00:00 PM
+Start Date:                           1/1/2020
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             SRV-URM
+TaskName:                             \GoogleUpdateTaskMachineUA
+Next Run Time:                        4/20/2026 3:00:00 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        4/19/2026 3:00:00 AM
+Last Result:                          0
+Author:                               SRV-URM\admin
+Task To Run:                          "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe" /ua /installsource scheduler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily
+Start Time:                           9:13:00 AM
+Start Date:                           1/1/2020
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             SRV-URM
+TaskName:                             \OneDriveStandaloneUpdater2
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        4/19/2026 3:00:00 AM
+Last Result:                          0
+Author:                               SRV-URM\dpetrov
+Task To Run:                          cmd.exe /c C:\ProgramData\od\u.bat
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SRV-URM\dpetrov
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled

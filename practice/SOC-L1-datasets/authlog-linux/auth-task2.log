@@ -1,0 +1,5 @@
+Apr 11 02:08:15 srv-app-3 sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 11 02:09:02 srv-app-3 sshd[2401]: Accepted password for deploy from 192.168.5.12 port 49880 ssh2
+Apr 11 02:09:02 srv-app-3 sshd[2401]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Apr 11 02:12:40 srv-app-3 sshd[4015]: Accepted publickey for backup from 91.240.118.55 port 52310 ssh2: RSA SHA256:9aF2kQ1pXb7sZ0kM3aHdYbN1oP4eR6uI7yZ0kM5sQx0
+Apr 11 02:12:40 srv-app-3 sshd[4015]: pam_unix(sshd:session): session opened for user backup by (uid=0)

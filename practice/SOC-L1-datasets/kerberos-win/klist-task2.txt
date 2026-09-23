@@ -1,0 +1,69 @@
+Current LogonId is 0:0x7d2a9
+
+Cached Tickets: (6)
+
+#0>	Client: dpetrov @ URM.LOCAL
+	Server: krbtgt/URM.LOCAL @ URM.LOCAL
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40e10000 -> forwardable renewable initial pre_authent name_canonicalize
+	Start Time: 4/8/2026 9:12:03 (local)
+	End Time:   4/8/2026 19:12:03 (local)
+	Renew Time: 4/8/2026 9:12:03 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x1 -> PRIMARY
+	Kdc Called: DC2.URM.LOCAL
+
+#1>	Client: dpetrov @ URM.LOCAL
+	Server: cifs/DC2.URM.LOCAL @ URM.LOCAL
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize
+	Start Time: 4/8/2026 9:12:03 (local)
+	End Time:   4/8/2026 19:12:03 (local)
+	Renew Time: 4/8/2026 9:12:03 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x8 -> ASC
+	Kdc Called: DC2.URM.LOCAL
+
+#2>	Client: dpetrov @ URM.LOCAL
+	Server: LDAP/DC2.URM.LOCAL @ URM.LOCAL
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize
+	Start Time: 4/8/2026 9:12:03 (local)
+	End Time:   4/8/2026 19:12:03 (local)
+	Renew Time: 4/8/2026 9:12:03 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x8 -> ASC
+	Kdc Called: DC2.URM.LOCAL
+
+#3>	Client: dpetrov @ URM.LOCAL
+	Server: host/DC2.URM.LOCAL @ URM.LOCAL
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize
+	Start Time: 4/8/2026 9:12:03 (local)
+	End Time:   4/8/2026 19:12:03 (local)
+	Renew Time: 4/8/2026 9:12:03 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x8 -> ASC
+	Kdc Called: DC2.URM.LOCAL
+
+#4>	Client: dpetrov @ URM.LOCAL
+	Server: HOST/fs01.urm.local @ URM.LOCAL
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize
+	Start Time: 4/8/2026 9:12:03 (local)
+	End Time:   4/8/2026 19:12:03 (local)
+	Renew Time: 4/8/2026 9:12:03 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x8 -> ASC
+	Kdc Called: DC2.URM.LOCAL
+
+#5>	Client: dpetrov @ URM.LOCAL
+	Server: MSSQLSvc/db.urm.local:1433 @ URM.LOCAL
+	KerbTicket Encryption Type: RSADSI RC4-HMAC(NT)
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize
+	Start Time: 4/8/2026 9:12:03 (local)
+	End Time:   4/8/2026 19:12:03 (local)
+	Renew Time: 4/8/2026 9:12:03 (local)
+	Session Key Type: RSADSI RC4-HMAC(NT)
+	Cache Flags: 0x8 -> ASC
+	Kdc Called: DC2.URM.LOCAL

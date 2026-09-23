@@ -1,0 +1,7 @@
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN
+tcp        0      0 0.0.0.0:443             0.0.0.0:*               LISTEN
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN
+tcp        0      0 192.168.8.15:22         192.168.8.4:52310       ESTABLISHED
+tcp        0      0 192.168.8.15:443        192.168.8.40:48771      ESTABLISHED
+tcp        0      0 192.168.8.15:49003      45.142.212.61:8443      ESTABLISHED

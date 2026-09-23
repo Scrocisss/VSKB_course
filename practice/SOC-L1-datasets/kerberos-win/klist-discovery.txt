@@ -1,0 +1,47 @@
+Current LogonId is 0:0x3e7f2
+
+Cached Tickets: (4)
+
+#0>	Client: jsmith @ CORP.LOCAL
+	Server: krbtgt/CORP.LOCAL @ CORP.LOCAL
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40e10000 -> forwardable renewable initial pre_authent name_canonicalize
+	Start Time: 4/20/2026 9:12:03 (local)
+	End Time:   4/20/2026 19:12:03 (local)
+	Renew Time: 4/20/2026 9:12:03 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x1 -> PRIMARY
+	Kdc Called: DC01.CORP.LOCAL
+
+#1>	Client: jsmith @ CORP.LOCAL
+	Server: cifs/DC01.CORP.LOCAL @ CORP.LOCAL
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize
+	Start Time: 4/20/2026 9:12:03 (local)
+	End Time:   4/20/2026 19:12:03 (local)
+	Renew Time: 4/20/2026 9:12:03 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x8 -> ASC
+	Kdc Called: DC01.CORP.LOCAL
+
+#2>	Client: jsmith @ CORP.LOCAL
+	Server: LDAP/DC01.CORP.LOCAL @ CORP.LOCAL
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize
+	Start Time: 4/20/2026 9:12:03 (local)
+	End Time:   4/20/2026 19:12:03 (local)
+	Renew Time: 4/20/2026 9:12:03 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x8 -> ASC
+	Kdc Called: DC01.CORP.LOCAL
+
+#3>	Client: jsmith @ CORP.LOCAL
+	Server: MSSQLSvc/sql01.corp.local:1433 @ CORP.LOCAL
+	KerbTicket Encryption Type: RSADSI RC4-HMAC(NT)
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize
+	Start Time: 4/20/2026 9:12:03 (local)
+	End Time:   4/20/2026 19:12:03 (local)
+	Renew Time: 4/20/2026 9:12:03 (local)
+	Session Key Type: RSADSI RC4-HMAC(NT)
+	Cache Flags: 0x8 -> ASC
+	Kdc Called: DC01.CORP.LOCAL

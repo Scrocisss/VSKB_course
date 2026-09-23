@@ -1,0 +1,6 @@
+_gateway (192.168.5.1) at 02:42:ac:11:00:fe [ether] on eth0
+? (192.168.5.8) at 02:42:ac:11:00:08 [ether] on eth0
+? (192.168.5.15) at 02:42:ac:11:00:0f [ether] on eth0
+? (192.168.5.60) at 02:42:ac:11:00:3c [ether] on eth0
+? (192.168.5.120) at 02:42:ac:11:00:fe [ether] on eth0
+? (192.168.5.130) at 02:42:ac:11:00:82 [ether] on eth0

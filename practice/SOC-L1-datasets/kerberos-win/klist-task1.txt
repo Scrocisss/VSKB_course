@@ -1,0 +1,58 @@
+Current LogonId is 0:0x5b1c4
+
+Cached Tickets: (5)
+
+#0>	Client: mbrown @ GP.LOCAL
+	Server: krbtgt/GP.LOCAL @ GP.LOCAL
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40e10000 -> forwardable renewable initial pre_authent name_canonicalize
+	Start Time: 3/27/2026 9:12:03 (local)
+	End Time:   3/27/2026 19:12:03 (local)
+	Renew Time: 3/27/2026 9:12:03 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x1 -> PRIMARY
+	Kdc Called: DC1.GP.LOCAL
+
+#1>	Client: mbrown @ GP.LOCAL
+	Server: cifs/DC1.GP.LOCAL @ GP.LOCAL
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize
+	Start Time: 3/27/2026 9:12:03 (local)
+	End Time:   3/27/2026 19:12:03 (local)
+	Renew Time: 3/27/2026 9:12:03 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x8 -> ASC
+	Kdc Called: DC1.GP.LOCAL
+
+#2>	Client: mbrown @ GP.LOCAL
+	Server: host/DC1.GP.LOCAL @ GP.LOCAL
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize
+	Start Time: 3/27/2026 9:12:03 (local)
+	End Time:   3/27/2026 19:12:03 (local)
+	Renew Time: 3/27/2026 9:12:03 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x8 -> ASC
+	Kdc Called: DC1.GP.LOCAL
+
+#3>	Client: mbrown @ GP.LOCAL
+	Server: LDAP/DC1.GP.LOCAL @ GP.LOCAL
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize
+	Start Time: 3/27/2026 9:12:03 (local)
+	End Time:   3/27/2026 19:12:03 (local)
+	Renew Time: 3/27/2026 9:12:03 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x8 -> ASC
+	Kdc Called: DC1.GP.LOCAL
+
+#4>	Client: mbrown @ GP.LOCAL
+	Server: HTTP/web01.gp.local @ GP.LOCAL
+	KerbTicket Encryption Type: RSADSI RC4-HMAC(NT)
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize
+	Start Time: 3/27/2026 9:12:03 (local)
+	End Time:   3/27/2026 19:12:03 (local)
+	Renew Time: 3/27/2026 9:12:03 (local)
+	Session Key Type: RSADSI RC4-HMAC(NT)
+	Cache Flags: 0x8 -> ASC
+	Kdc Called: DC1.GP.LOCAL

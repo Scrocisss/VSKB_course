@@ -1,0 +1,27 @@
+=== Sandbox Analysis Report ===
+Sample:        Resume_Petrov.pdf.exe
+SHA256:        A77B2C9D4E1F5038261B9C0DAFE8714523B4C5D6E7F8A9B0C1D2E3F4A5B6C7D8
+Verdict:       MALICIOUS
+Threat Score:  88/100
+Analysis Time: 2026-03-31 10:02:14
+
+Signatures:
+  - Executable masquerades as PDF (double extension)
+  - Drops file to user profile and sets autorun
+  - Beacons to external host over TLS
+
+Network IOCs:
+  - DNS query: win-telemetry.org
+  - HTTP request: https://45.142.212.61/gate.php
+  - C2: 45.142.212.61:443 (TCP)
+
+Dropped files:
+  - C:\Users\Public\wupd.exe  SHA256=D9C2C50CCE91B186DDDBC58B44BB0420108BBBD47DB4B7B8A73B2CD548839DE2
+
+Process tree:
+  Resume_Petrov.pdf.exe -> cmd.exe -> wupd.exe
+
+MITRE ATT&CK:
+  - T1036 Masquerading
+  - T1547.001 Registry Run Keys
+  - T1071.001 Web Protocols

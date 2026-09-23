@@ -1,0 +1,5 @@
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      705/sshd
+tcp        0      0 0.0.0.0:25              0.0.0.0:*               LISTEN      980/master
+tcp        0      0 0.0.0.0:143             0.0.0.0:*               LISTEN      1020/dovecot
+tcp        0      0 0.0.0.0:1524            0.0.0.0:*               LISTEN      6120/bash

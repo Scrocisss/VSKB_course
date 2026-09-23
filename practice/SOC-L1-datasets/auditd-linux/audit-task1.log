@@ -1,0 +1,24 @@
+type=SYSCALL msg=audit(1776661200.216:5200): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd1a2b3c40 a1=7ffd1a2b3d10 a2=7ffd1a2b3e80 a3=8 items=2 ppid=1240 pid=1242 auid=1000 uid=1000 gid=0 euid=1000 suid=1000 fsuid=1000 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="ls" exe="/usr/bin/ls" key="exec"
+type=EXECVE msg=audit(1776661200.216:5200): argc=3 a0="ls" a1="-la" a2="/var/log"
+type=CWD msg=audit(1776661200.216:5200): cwd="/home/user"
+type=PATH msg=audit(1776661200.216:5200): item=0 name="/usr/bin/ls" inode=1233846 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1776661200.216:5200): item=1 name="/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2" inode=1021913 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1776661200.216:5200): proctitle=6C73002D6C61002F7661722F6C6F67
+type=SYSCALL msg=audit(1776661230.216:5203): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd1a2b3c40 a1=7ffd1a2b3d10 a2=7ffd1a2b3e80 a3=8 items=2 ppid=1310 pid=1244 auid=1000 uid=1000 gid=0 euid=1000 suid=1000 fsuid=1000 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="systemctl" exe="/usr/bin/systemctl" key="exec"
+type=EXECVE msg=audit(1776661230.216:5203): argc=3 a0="systemctl" a1="status" a2="sshd"
+type=CWD msg=audit(1776661230.216:5203): cwd="/home/user"
+type=PATH msg=audit(1776661230.216:5203): item=0 name="/usr/bin/systemctl" inode=528720 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1776661230.216:5203): item=1 name="/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2" inode=1021913 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1776661230.216:5203): proctitle=73797374656D63746C007374617475730073736864
+type=SYSCALL msg=audit(1776661260.216:5206): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd1a2b3c40 a1=7ffd1a2b3d10 a2=7ffd1a2b3e80 a3=8 items=2 ppid=1488 pid=1247 auid=1000 uid=1000 gid=0 euid=1000 suid=1000 fsuid=1000 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cat" exe="/usr/bin/cat" key="exec"
+type=EXECVE msg=audit(1776661260.216:5206): argc=2 a0="cat" a1="/etc/hosts"
+type=CWD msg=audit(1776661260.216:5206): cwd="/home/user"
+type=PATH msg=audit(1776661260.216:5206): item=0 name="/usr/bin/cat" inode=990197 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1776661260.216:5206): item=1 name="/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2" inode=1021913 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1776661260.216:5206): proctitle=636174002F6574632F686F737473
+type=SYSCALL msg=audit(1776661290.216:5209): arch=c000003e syscall=59 success=yes exit=0 a0=7ffd1a2b3c40 a1=7ffd1a2b3d10 a2=7ffd1a2b3e80 a3=8 items=2 ppid=2810 pid=3120 auid=1002 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=7 comm="chmod" exe="/usr/bin/chmod" key="perm_mod"
+type=EXECVE msg=audit(1776661290.216:5209): argc=3 a0="chmod" a1="4755" a2="/tmp/.cache/sh"
+type=CWD msg=audit(1776661290.216:5209): cwd="/root"
+type=PATH msg=audit(1776661290.216:5209): item=0 name="/usr/bin/chmod" inode=689781 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1776661290.216:5209): item=1 name="/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2" inode=1021913 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1776661290.216:5209): proctitle=63686D6F640034373535002F746D702F2E63616368652F7368

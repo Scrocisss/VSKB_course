@@ -1,0 +1,27 @@
+=== Sandbox Analysis Report ===
+Sample:        setup_v2.msi
+SHA256:        F1E2D3C4B5A6079817263544A5B6C7D8E9F0A1B2C3D4E5F60718293A4B5C6D7E
+Verdict:       MALICIOUS
+Threat Score:  95/100
+Analysis Time: 2026-04-12 14:40:55
+
+Signatures:
+  - Installer drops and runs unsigned binary
+  - Disables Windows Defender via registry
+  - Establishes C2 over HTTP on non-standard port
+
+Network IOCs:
+  - DNS query: api-cloud-sync.com
+  - HTTP request: http://91.240.118.55:8080/i
+  - C2: 91.240.118.55:8080 (TCP)
+
+Dropped files:
+  - C:\ProgramData\sync\agent.exe  SHA256=FF8BA893AAD3409E5BF0BD5377B0FBA285BBAFA24DBEB5E24AB1B8896F9A9006
+
+Process tree:
+  msiexec.exe -> agent.exe -> powershell.exe
+
+MITRE ATT&CK:
+  - T1218.007 Msiexec
+  - T1562.001 Disable Security Tools
+  - T1071 Application Layer Protocol

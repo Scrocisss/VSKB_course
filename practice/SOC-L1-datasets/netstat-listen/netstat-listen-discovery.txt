@@ -1,0 +1,5 @@
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      712/sshd
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      1230/apache2
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      1450/mariadbd
+tcp        0      0 0.0.0.0:9001            0.0.0.0:*               LISTEN      4870/nc

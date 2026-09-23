@@ -1,0 +1,199 @@
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: AudioEndpointBuilder
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Windows Audio Endpoint Builder
+        DEPENDENCIES       : RpcSs
+        SERVICE_START_NAME : LocalSystem
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: Audiosrv
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Windows Audio
+        DEPENDENCIES       : AudioEndpointBuilder
+                           : RpcSs
+        SERVICE_START_NAME : NT AUTHORITY\LocalService
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: BITS
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 3   DEMAND_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k netsvcs -p
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Background Intelligent Transfer Service
+        DEPENDENCIES       : RpcSs
+        SERVICE_START_NAME : LocalSystem
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: CryptSvc
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k NetworkService -p
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Cryptographic Services
+        DEPENDENCIES       : RpcSs
+        SERVICE_START_NAME : NT AUTHORITY\NetworkService
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: Dnscache
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k NetworkService -p
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : DNS Client
+        DEPENDENCIES       : NSI
+                           : Tdx
+        SERVICE_START_NAME : NT AUTHORITY\NetworkService
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: EventLog
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Windows Event Log
+        DEPENDENCIES       : RPCSS
+        SERVICE_START_NAME : NT AUTHORITY\LocalService
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: GfxUpdaterSvc
+        TYPE               : 10  WIN32_OWN_PROCESS
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\ProgramData\Intel\GfxUpd\igfxupd.exe
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Intel(R) Graphics Updater
+        DEPENDENCIES       :
+        SERVICE_START_NAME : LocalSystem
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: gpsvc
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k netsvcs -p
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Group Policy Client
+        DEPENDENCIES       : RpcSs
+        SERVICE_START_NAME : LocalSystem
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: LanmanServer
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k netsvcs -p
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Server
+        DEPENDENCIES       : SamSS
+                           : Srv2
+        SERVICE_START_NAME : LocalSystem
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: RpcSs
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k rpcss -p
+        LOAD_ORDER_GROUP   : COM Infrastructure
+        TAG                : 0
+        DISPLAY_NAME       : Remote Procedure Call (RPC)
+        DEPENDENCIES       : RpcEptMapper
+                           : DcomLaunch
+        SERVICE_START_NAME : NT AUTHORITY\NetworkService
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: Schedule
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k netsvcs -p
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Task Scheduler
+        DEPENDENCIES       : RPCSS
+        SERVICE_START_NAME : LocalSystem
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: Spooler
+        TYPE               : 10  WIN32_OWN_PROCESS
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\spoolsv.exe
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Print Spooler
+        DEPENDENCIES       : RPCSS
+                           : http
+        SERVICE_START_NAME : LocalSystem
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: W32Time
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 3   DEMAND_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k LocalService
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Windows Time
+        DEPENDENCIES       :
+        SERVICE_START_NAME : NT AUTHORITY\LocalService
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: Winmgmt
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k netsvcs -p
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Windows Management Instrumentation
+        DEPENDENCIES       : RPCSS
+        SERVICE_START_NAME : LocalSystem
+
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: wuauserv
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        START_TYPE         : 3   DEMAND_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\Windows\System32\svchost.exe -k netsvcs -p
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Windows Update
+        DEPENDENCIES       : rpcss
+        SERVICE_START_NAME : LocalSystem

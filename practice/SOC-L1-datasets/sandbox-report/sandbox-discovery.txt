@@ -1,0 +1,27 @@
+=== Sandbox Analysis Report ===
+Sample:        Invoice_4471.docm
+SHA256:        77FC06D5B39D7AC7F27065485019B3658342AC546ADB57725E8D317F327C0127
+Verdict:       MALICIOUS
+Threat Score:  92/100
+Analysis Time: 2026-04-20 08:15:33
+
+Signatures:
+  - Document contains auto-executing VBA macro
+  - Spawns PowerShell with encoded command
+  - Network connection to known-bad host
+
+Network IOCs:
+  - DNS query: cdn-update-svc.net
+  - HTTP request: http://185.220.101.47/payload.bin
+  - C2: 185.220.101.47:4444 (TCP)
+
+Dropped files:
+  - C:\Users\Public\svc.exe  SHA256=D5B0A3F2C8E4179026B5C2DAF9E8071452B3C4D5E6F7A8B9C0D1E2F3A4B5C6D7
+
+Process tree:
+  WINWORD.EXE -> powershell.exe -> svc.exe
+
+MITRE ATT&CK:
+  - T1566.001 Spearphishing Attachment
+  - T1059.001 PowerShell
+  - T1071 Application Layer Protocol

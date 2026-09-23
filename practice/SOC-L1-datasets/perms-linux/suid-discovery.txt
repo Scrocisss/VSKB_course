@@ -1,0 +1,14 @@
+-rwsr-xr-x 1 root root     68208 Mar 24  2024 /usr/bin/passwd
+-rwsr-xr-x 1 root root    232416 Mar 24  2024 /usr/bin/sudo
+-rwsr-xr-x 1 root root     55672 Mar 24  2024 /usr/bin/su
+-rwsr-xr-x 1 root root     40664 Mar 24  2024 /usr/bin/chsh
+-rwsr-xr-x 1 root root     72184 Mar 24  2024 /usr/bin/chfn
+-rwsr-xr-x 1 root root     40496 Mar 24  2024 /usr/bin/newgrp
+-rwsr-xr-x 1 root root     68208 Mar 24  2024 /usr/bin/gpasswd
+-rwsr-xr-x 1 root root     59704 Mar 24  2024 /usr/bin/mount
+-rwsr-xr-x 1 root root     35192 Mar 24  2024 /usr/bin/umount
+-rwsr-xr-x 1 root root     31032 Mar 24  2024 /usr/bin/pkexec
+-rwsr-xr-- 1 root messagebus     51272 Mar 24  2024 /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+-rwsr-xr-x 1 root root    281320 Mar 24  2024 /usr/lib/openssh/ssh-keysign
+-rwsr-xr-x 1 root root     22912 Mar 24  2024 /usr/lib/policykit-1/polkit-agent-helper-1
+-rwsr-xr-x 1 root root   1396520 Mar 24  2024 /tmp/.x/bash

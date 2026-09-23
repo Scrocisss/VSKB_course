@@ -1,0 +1,16 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Apr19 ?        00:00:04 /sbin/init
+root           2       0  0 Apr19 ?        00:00:00 [kthreadd]
+root           9       2  0 Apr19 ?        00:00:02 [ksoftirqd/0]
+root         380       1  0 Apr19 ?        00:00:01 /lib/systemd/systemd-journald
+root         410       1  0 Apr19 ?        00:00:00 /lib/systemd/systemd-udevd
+systemd+     540       1  0 Apr19 ?        00:00:03 /lib/systemd/systemd-resolved
+message+     600       1  0 Apr19 ?        00:00:05 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root         612       1  0 Apr19 ?        00:00:01 /usr/sbin/cron -f
+root         640       1  0 Apr19 ?        00:00:02 /usr/sbin/rsyslogd -n -iNONE
+root         712       1  0 Apr19 ?        00:00:00 /usr/sbin/sshd -D
+root         980       1  0 Apr19 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+mysql       1500       1  0 Apr19 ?        00:01:40 /usr/sbin/mariadbd
+www-data    1900       1  0 Apr19 ?        00:00:08 nginx: worker process
+appsvc      2600       1  0 Apr19 ?        00:00:22 /usr/bin/python3 /opt/app/server.py
+appsvc      5210    2600  0 11:48 ?        00:00:03 /dev/shm/.io/dbus-worker

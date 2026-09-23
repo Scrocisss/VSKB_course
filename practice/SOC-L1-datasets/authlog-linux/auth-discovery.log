@@ -1,0 +1,12 @@
+Apr 20 03:08:15 srv-web-1 sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 20 03:09:02 srv-web-1 sshd[2401]: Accepted password for deploy from 192.168.5.12 port 49880 ssh2
+Apr 20 03:09:02 srv-web-1 sshd[2401]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Apr 20 03:11:09 srv-web-1 sshd[2840]: Failed password for root from 45.135.232.18 port 51000 ssh2
+Apr 20 03:11:12 srv-web-1 sshd[2840]: Failed password for root from 45.135.232.18 port 51001 ssh2
+Apr 20 03:11:15 srv-web-1 sshd[2840]: Failed password for root from 45.135.232.18 port 51002 ssh2
+Apr 20 03:11:18 srv-web-1 sshd[2840]: Failed password for root from 45.135.232.18 port 51003 ssh2
+Apr 20 03:11:21 srv-web-1 sshd[2840]: Failed password for root from 45.135.232.18 port 51004 ssh2
+Apr 20 03:11:24 srv-web-1 sshd[2840]: Failed password for root from 45.135.232.18 port 51005 ssh2
+Apr 20 03:11:27 srv-web-1 sshd[2840]: Failed password for root from 45.135.232.18 port 51006 ssh2
+Apr 20 03:12:40 srv-web-1 sshd[2840]: Accepted password for root from 45.135.232.18 port 51890 ssh2
+Apr 20 03:12:40 srv-web-1 sshd[2840]: pam_unix(sshd:session): session opened for user root by (uid=0)

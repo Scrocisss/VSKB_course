@@ -1,0 +1,19 @@
+C:\> wmic useraccount get Name,SID,Disabled,Lockout,PasswordRequired
+Name                SID                                             Disabled  Lockout  PasswordRequired
+Administrator       S-1-5-21-1187234044-2304199921-1456789012-500   TRUE      FALSE    TRUE
+DefaultAccount      S-1-5-21-1187234044-2304199921-1456789012-503   TRUE      FALSE    TRUE
+Guest               S-1-5-21-1187234044-2304199921-1456789012-501   TRUE      FALSE    FALSE
+WDAGUtilityAccount  S-1-5-21-1187234044-2304199921-1456789012-504   TRUE      FALSE    TRUE
+jsmith              S-1-5-21-1187234044-2304199921-1456789012-1001  FALSE     FALSE    TRUE
+sysbackup           S-1-5-21-1187234044-2304199921-1456789012-1003  FALSE     FALSE    FALSE
+
+C:\> net localgroup Administrators
+Alias name     Administrators
+Comment        Administrators have complete and unrestricted access to the computer/domain
+
+Members
+
+-------------------------------------------------------------------------------
+Administrator
+sysbackup
+The command completed successfully.

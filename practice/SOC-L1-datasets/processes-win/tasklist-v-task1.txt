@@ -1,0 +1,209 @@
+Image Name:   System Idle Process
+PID:          0
+Session Name: Services
+Session#:     0
+Mem Usage:    8 K
+Status:       Unknown
+User Name:    NT AUTHORITY\SYSTEM
+CPU Time:     12:41:07
+Window Title: N/A
+
+Image Name:   System
+PID:          4
+Session Name: Services
+Session#:     0
+Mem Usage:    144 K
+Status:       Running
+User Name:    NT AUTHORITY\SYSTEM
+CPU Time:     0:01:12
+Window Title: N/A
+
+Image Name:   smss.exe
+PID:          360
+Session Name: Services
+Session#:     0
+Mem Usage:    1,024 K
+Status:       Running
+User Name:    NT AUTHORITY\SYSTEM
+CPU Time:     0:00:00
+Window Title: N/A
+
+Image Name:   csrss.exe
+PID:          540
+Session Name: Services
+Session#:     0
+Mem Usage:    4,512 K
+Status:       Running
+User Name:    NT AUTHORITY\SYSTEM
+CPU Time:     0:00:03
+Window Title: N/A
+
+Image Name:   wininit.exe
+PID:          624
+Session Name: Services
+Session#:     0
+Mem Usage:    5,280 K
+Status:       Running
+User Name:    NT AUTHORITY\SYSTEM
+CPU Time:     0:00:00
+Window Title: N/A
+
+Image Name:   csrss.exe
+PID:          632
+Session Name: Console
+Session#:     1
+Mem Usage:    6,140 K
+Status:       Running
+User Name:    NT AUTHORITY\SYSTEM
+CPU Time:     0:00:08
+Window Title: N/A
+
+Image Name:   winlogon.exe
+PID:          700
+Session Name: Console
+Session#:     1
+Mem Usage:    9,300 K
+Status:       Running
+User Name:    NT AUTHORITY\SYSTEM
+CPU Time:     0:00:01
+Window Title: N/A
+
+Image Name:   services.exe
+PID:          716
+Session Name: Services
+Session#:     0
+Mem Usage:    8,420 K
+Status:       Running
+User Name:    NT AUTHORITY\SYSTEM
+CPU Time:     0:00:14
+Window Title: N/A
+
+Image Name:   lsass.exe
+PID:          724
+Session Name: Services
+Session#:     0
+Mem Usage:    13,664 K
+Status:       Running
+User Name:    NT AUTHORITY\SYSTEM
+CPU Time:     0:00:22
+Window Title: N/A
+
+Image Name:   svchost.exe
+PID:          836
+Session Name: Services
+Session#:     0
+Mem Usage:    22,140 K
+Status:       Running
+User Name:    NT AUTHORITY\SYSTEM
+CPU Time:     0:00:31
+Window Title: N/A
+
+Image Name:   svchost.exe
+PID:          904
+Session Name: Services
+Session#:     0
+Mem Usage:    11,008 K
+Status:       Running
+User Name:    NT AUTHORITY\NETWORK SERVICE
+CPU Time:     0:00:12
+Window Title: N/A
+
+Image Name:   svchost.exe
+PID:          952
+Session Name: Services
+Session#:     0
+Mem Usage:    9,560 K
+Status:       Running
+User Name:    NT AUTHORITY\LOCAL SERVICE
+CPU Time:     0:00:07
+Window Title: N/A
+
+Image Name:   svchost.exe
+PID:          1012
+Session Name: Services
+Session#:     0
+Mem Usage:    18,300 K
+Status:       Running
+User Name:    NT AUTHORITY\SYSTEM
+CPU Time:     0:00:19
+Window Title: N/A
+
+Image Name:   svchost.exe
+PID:          1140
+Session Name: Services
+Session#:     0
+Mem Usage:    7,720 K
+Status:       Running
+User Name:    NT AUTHORITY\LOCAL SERVICE
+CPU Time:     0:00:05
+Window Title: N/A
+
+Image Name:   fontdrvhost.exe
+PID:          780
+Session Name: Console
+Session#:     1
+Mem Usage:    3,220 K
+Status:       Running
+User Name:    Font Driver Host\UMFD-1
+CPU Time:     0:00:00
+Window Title: N/A
+
+Image Name:   dwm.exe
+PID:          1100
+Session Name: Console
+Session#:     1
+Mem Usage:    44,180 K
+Status:       Running
+User Name:    Window Manager\DWM-1
+CPU Time:     0:00:42
+Window Title: N/A
+
+Image Name:   MsMpEng.exe
+PID:          2100
+Session Name: Services
+Session#:     0
+Mem Usage:    188,540 K
+Status:       Running
+User Name:    NT AUTHORITY\SYSTEM
+CPU Time:     0:03:18
+Window Title: N/A
+
+Image Name:   explorer.exe
+PID:          3200
+Session Name: Console
+Session#:     1
+Mem Usage:    78,220 K
+Status:       Running
+User Name:    GP-CAD07\mbrown
+CPU Time:     0:01:50
+Window Title: N/A
+
+Image Name:   RuntimeBroker.exe
+PID:          3460
+Session Name: Console
+Session#:     1
+Mem Usage:    21,900 K
+Status:       Running
+User Name:    GP-CAD07\mbrown
+CPU Time:     0:00:09
+Window Title: N/A
+
+Image Name:   msedge.exe
+PID:          4120
+Session Name: Console
+Session#:     1
+Mem Usage:    156,300 K
+Status:       Running
+User Name:    GP-CAD07\mbrown
+CPU Time:     0:02:33
+Window Title: N/A
+
+Image Name:   lsass.exe
+PID:          6680
+Session Name: Console
+Session#:     1
+Mem Usage:    7,120 K
+Status:       Running
+User Name:    GP-CAD07\mbrown
+CPU Time:     0:00:01
+Window Title: N/A
