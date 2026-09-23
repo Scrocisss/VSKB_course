@@ -6,8 +6,6 @@
 
 Для каждого набора есть три файла: ознакомительная выгрузка, СЗ-1 и СЗ-2. [Открыть таблицу со ссылками на все 60 файлов](practice/SOC-L1-datasets/README.md).
 
-Для вопроса о нештатной службе: [services-scqc-task1.txt](practice/SOC-L1-datasets/services-win/services-scqc-task1.txt).
-
 - **02 Операционные системы:** [services-win](practice/SOC-L1-datasets/services-win/), [registry-win](practice/SOC-L1-datasets/registry-win/), [processes-win](practice/SOC-L1-datasets/processes-win/), [schtasks-win](practice/SOC-L1-datasets/schtasks-win/), [accounts-win](practice/SOC-L1-datasets/accounts-win/), [ntlm-win](practice/SOC-L1-datasets/ntlm-win/), [kerberos-win](practice/SOC-L1-datasets/kerberos-win/), [fs-linux](practice/SOC-L1-datasets/fs-linux/), [processes-linux](practice/SOC-L1-datasets/processes-linux/), [cron-linux](practice/SOC-L1-datasets/cron-linux/), [users-linux](practice/SOC-L1-datasets/users-linux/), [perms-linux](practice/SOC-L1-datasets/perms-linux/).
 - **03 Сетевые технологии:** [arp-net](practice/SOC-L1-datasets/arp-net/), [netstat-conn](practice/SOC-L1-datasets/netstat-conn/), [netstat-listen](practice/SOC-L1-datasets/netstat-listen/).
 - **04 Журналирование ОС:** [winevt-security](practice/SOC-L1-datasets/winevt-security/), [sysmon-proc](practice/SOC-L1-datasets/sysmon-proc/), [auditd-linux](practice/SOC-L1-datasets/auditd-linux/), [authlog-linux](practice/SOC-L1-datasets/authlog-linux/).
